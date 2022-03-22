@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders correctly when checked 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clippath: inset(50%);
+  clippath: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  opacity: 0;
+}
+
+.c4 {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.c2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: salmon;
+  border-radius: 4px;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+}
+
+.c2:hover {
+  background: salmon;
+}
+
+.c2 .c3 {
+  visibility: visible;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      aria-label="My checkbox"
+      checked=""
+      class="c1"
+      type="checkbox"
+    />
+    <div
+      class="c2"
+    >
+      <svg
+        class="c3 c4"
+        viewBox="0 0 24 24"
+      >
+        <polyline
+          points="20 6 9 17 4 12"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Checkbox renders correctly when unchecked 1`] = `
+.c0 {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  -webkit-clippath: inset(50%);
+  clippath: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  opacity: 0;
+}
+
+.c4 {
+  fill: none;
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.c2 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #fcb797;
+  border-radius: 4px;
+  -webkit-transition: all 150ms;
+  transition: all 150ms;
+}
+
+.c2:hover {
+  background: salmon;
+}
+
+.c2 .c3 {
+  visibility: hidden;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      aria-label="My checkbox"
+      class="c1"
+      type="checkbox"
+    />
+    <div
+      class="c2"
+    >
+      <svg
+        class="c3 c4"
+        viewBox="0 0 24 24"
+      >
+        <polyline
+          points="20 6 9 17 4 12"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
